@@ -1,17 +1,49 @@
-#Author: your.email@your.domain.com
+Feature: Post program
+@s_001
+Scenario Outline: Post Req
+Given user is on POST method
+When User send api request for save programs with "<url>"
+Then user validate the response status code is <statusCode> 
+And user validate header content-Type as "<contentType>"
+Then user validate response body errorMessage is "<message>"
 
-Feature: Validating Create Program
-@AddProgram
-Scenario Outline: Verify if Program is being Succesfully added using AddProgramAPI
-	Given Add Place Payload with "<name>"  "<language>" "<address>"
-	When user calls "AddProgramAPI" with "POST" http request
-	Then the API call got success with status code 200
-	And "status" in response body is "OK"
-	And "scope" in response body is "APP"
-	And verify place_Id created maps to "<name>" using "AddProgramAPI"
-	
 Examples:
-	| 	 |  |		   |
-	
+|url| statusCode|contentType|message|
+|/saveprogram| 400|application/json|cannot create program , since already exists|
 
+@s_001
+Scenario Outline: Post Req with invalid url
+ Given user is on POST method
+When User send api request with "<url>"
+Then user validate the response status code is <statusCode> 
+And user validate header content-Type as "<contentType>"
+Then user validate the response body as error "<error>"
+
+Examples:
+|url| statusCode|contentType|error|
+|/| 404|application/json|Not Found|
+
+@s_001
+Scenario Outline: Post Req with invalid body
+Given user is on POST method
+When User send api request with "<url>" without programName
+Then user validate the response status code is <statusCode> 
+And user validate header content-Type as "<contentType>"
+
+
+Examples:
+|url| statusCode|contentType|
+|/batches| 400|application/json|
+
+@s_001
+Scenario Outline: Post Req without sending header
+Given user is on POST method
+When User send api request to create program with "<url>" without header
+Then user validate the response status code is <statusCode> 
+And user validate header content-Type as "<contentType>"
+Then user validate the response body as error "<error>"
+
+Examples:
+|url| statusCode|contentType|error|
+|/batches| 415|application/json|Unsupported Media Type|
 
