@@ -30,7 +30,6 @@ When User send api request with "<url>" without programName
 Then user validate the response status code is <statusCode> 
 And user validate header content-Type as "<contentType>"
 
-
 Examples:
 |url| statusCode|contentType|
 |/batches| 400|application/json|

@@ -8,7 +8,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class Base {
 	public final String baseURL = "https://lms-backend-service.herokuapp.com/lms";
-	public  Response response;
+	public Response response;
 	public Scenario scenario;
 	public RequestSpecification requestSpecification;
 	
