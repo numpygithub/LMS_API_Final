@@ -29,7 +29,15 @@ public class GetBatchesStepDef {
 		String responseBody = base.response.getBody().asString();
 		String actualName = base.response.then().extract().path("batchName");
 		Assert.assertEquals(actualName, name);
-		Loggerload.info("---------->Actual response status is  :" + actualName);
+		Loggerload.info("Actual response status is  :" + actualName);
+	}
+	
+	@Then("user validate response body error message is {string}")
+	public void user_validate_response_body_error_message_is(String errorMessage) {
+		
+		String actualMessage = base.response.then().extract().path("errorMessage");
+		Assert.assertEquals(actualMessage, errorMessage+" ");
+	    
 	}
 
 }

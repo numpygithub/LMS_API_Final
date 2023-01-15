@@ -18,7 +18,7 @@ Then user validate response body batch name is "<batchName>"
 
 Examples:
 |url| statusCode| status|batchName|
-|/batches/batchId/396| 200|Active|Updated Batch-2023042034234|
+|/batches/batchId/942| 200|Active|Batch-2023042051430|
 
 @s_001
 Scenario Outline: Get batch by batchName
@@ -40,7 +40,7 @@ And user validate header content-Type as "<contentType>"
 
 Examples:
 |url| statusCode|contentType|
-|batches/program/305| 200|application/json|
+|batches/program/1668| 200|application/json|
 
 @s_001
 Scenario Outline: Get batch by invalid programId
