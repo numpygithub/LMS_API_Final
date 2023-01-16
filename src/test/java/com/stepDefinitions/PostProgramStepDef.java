@@ -22,10 +22,10 @@ public class PostProgramStepDef {
 	String timeStamp = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss").format(Calendar.getInstance().getTime());
 	
 	
-	@When("user send api request for save programs with {string}")
-	public void user_send_api_request_for_save_programs_with(String url) {
+	@When("user send api request for create program with {string}")
+	public void user_send_api_request_for_create_program_with(String url) {
 		 JSONObject payload = new JSONObject();
-	        payload.put("programName", "Jan23-API Queen Bees-Java-012");
+	        payload.put("programName", "Jan23-API Queen Bees-SDET-001");
 	        payload.put("programDescription", "Learn api");
 	        payload.put("programStatus", "Active");
 	        payload.put("creationTime", timeStamp);
@@ -35,6 +35,18 @@ public class PostProgramStepDef {
 		 base.response = base.requestSpecification.request(Method.POST,url);
 	}
 	
+	@When("user send api request for create another program with {string}")
+	public void user_send_api_request_for_create_another_program_with(String url) {
+		 JSONObject payload = new JSONObject();
+	        payload.put("programName", "Jan23-API Queen Bees-SDET-002");
+	        payload.put("programDescription", "Learn api");
+	        payload.put("programStatus", "Active");
+	        payload.put("creationTime", timeStamp);
+	        payload.put("lastModTime", timeStamp);
+	        base.requestSpecification.body(payload);
+	        base.requestSpecification.header("Content-Type","application/json");
+		 base.response = base.requestSpecification.request(Method.POST,url);
+	}
 	@When("user send api request with {string} without programName")
 	public void user_send_api_request_with_without_program_name(String url) {
 		JSONObject payload = new JSONObject();

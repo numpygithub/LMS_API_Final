@@ -1,23 +1,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>LMS_API_RestAssured_Hackathon_Team11</groupId>
-  <artifactId>LMS_API_RestAssured_Hackathon_Team11</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
-  
-  <properties>
-         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-         <maven.compiler.source>1.8</maven.compiler.source>
-         <maven.compiler.target>1.8</maven.compiler.target>
-  </properties>
-  
-<dependencies>
-     <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>LMS_API_RestAssured_Hackathon_Team11</groupId>
+	<artifactId>LMS_API_RestAssured_Hackathon_Team11</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 		<dependency>
-    <groupId>com.fasterxml.jackson.core</groupId>
-    <artifactId>jackson-databind</artifactId>
-    <version>2.14.1</version>
-</dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.14.1</version>
+		</dependency>
 
 
 		<dependency>
@@ -79,10 +79,10 @@
 			<version>7.5</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-		
+
 		<dependency>
 			<groupId>io.qameta.allure</groupId>
 			<artifactId>allure-cucumber7-jvm</artifactId>
@@ -157,5 +157,5 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-  
+
 </project>

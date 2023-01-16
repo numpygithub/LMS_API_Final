@@ -2,13 +2,24 @@ Feature: Post program
 @s_001
 Scenario Outline: Post Req
 Given user is on POST method
-When user send api request for save programs with "<url>"
+When user send api request for create program with "<url>"
 Then user validate the response status code is <statusCode> 
 And user validate header content-Type as "<contentType>"
 
 Examples:
 |url| statusCode|contentType|
-|/saveprogram| 201  |application/json|
+|/saveprogram| 201 |application/json|
+
+@s_001
+Scenario Outline: Post Req
+Given user is on POST method
+When user send api request for create another program with "<url>"
+Then user validate the response status code is <statusCode> 
+And user validate header content-Type as "<contentType>"
+
+Examples:
+|url| statusCode|contentType|
+|/saveprogram| 201 |application/json|
 
 @s_001
 Scenario Outline: Post Req with invalid url
