@@ -1,107 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="10" ignored="0" total="31" passed="21">
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11942" started-at="2023-01-16T08:23:01 CST" finished-at="2023-01-16T08:23:13 CST">
+  <suite started-at="2023-01-16T15:51:43 CST" name="Default suite" finished-at="2023-01-16T15:51:53 CST" duration-ms="10432">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="11942" started-at="2023-01-16T08:23:01 CST" finished-at="2023-01-16T08:23:13 CST">
+    <test started-at="2023-01-16T15:51:43 CST" name="Default test" finished-at="2023-01-16T15:51:53 CST" duration-ms="10432">
       <class name="com.runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="setUpClass" is-config="true" duration-ms="535" started-at="2023-01-16T08:23:01 CST" finished-at="2023-01-16T08:23:01 CST">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:43 CST" name="setUpClass" finished-at="2023-01-16T15:51:44 CST" duration-ms="1118" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@aca2fc3]]>
+                <![CDATA[org.testng.TestRunner@575e862c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="2447" started-at="2023-01-16T08:23:01 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:04 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Get all programs"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Get Program]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="916" started-at="2023-01-16T08:23:04 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:05 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Get program by programId"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Get Program]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="228" started-at="2023-01-16T08:23:05 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:05 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Get program by invalid progamId"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Get Program]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="404" started-at="2023-01-16T08:23:05 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:05 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Get program by not giving programId"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Get Program]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="229" started-at="2023-01-16T08:23:05 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:06 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Get all program by invalid url"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Get Program]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="321" started-at="2023-01-16T08:23:06 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:06 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:44 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:47 CST" duration-ms="2575" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="228" started-at="2023-01-16T08:23:06 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:06 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:47 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:47 CST" duration-ms="813" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,27 +50,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [NinjaMavericks] but found [156]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [NinjaMavericks] but found [156]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at com.stepDefinitions.GetBatchesStepDef.user_validate_response_body_batch_name_is(GetBatchesStepDef.java:31)
-at ✽.user validate response body batch name is "NinjaMavericks"(file:///C:/Users/xunee/git/LMS_API_Final/src/test/resources/features/002GetBatches.feature:17)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="222" started-at="2023-01-16T08:23:06 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:06 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:47 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:48 CST" duration-ms="239" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,7 +69,7 @@ at ✽.user validate response body batch name is "NinjaMavericks"(file:///C:/Use
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="213" started-at="2023-01-16T08:23:06 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:07 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:48 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:48 CST" duration-ms="223" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -182,7 +85,7 @@ at ✽.user validate response body batch name is "NinjaMavericks"(file:///C:/Use
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="227" started-at="2023-01-16T08:23:07 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:07 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:48 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:48 CST" duration-ms="236" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -198,7 +101,7 @@ at ✽.user validate response body batch name is "NinjaMavericks"(file:///C:/Use
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="219" started-at="2023-01-16T08:23:07 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:07 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:48 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:48 CST" duration-ms="275" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -214,7 +117,7 @@ at ✽.user validate response body batch name is "NinjaMavericks"(file:///C:/Use
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="226" started-at="2023-01-16T08:23:07 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:07 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:48 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:49 CST" duration-ms="262" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -230,7 +133,7 @@ at ✽.user validate response body batch name is "NinjaMavericks"(file:///C:/Use
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="34" started-at="2023-01-16T08:23:07 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:07 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:49 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:49 CST" duration-ms="229" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -243,71 +146,10 @@ at ✽.user validate response body batch name is "NinjaMavericks"(file:///C:/Use
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User send api request to get all batches with "/batches/batchName/NinjaMaverick"' is undefined.
-You can implement this step using the snippet(s) below:
-
-@When("User send api request to get all batches with {string}")
-public void user_send_api_request_to_get_all_batches_with(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User send api request to get all batches with "/batches/batchName/NinjaMaverick"' is undefined.
-You can implement this step using the snippet(s) below:
-
-@When("User send api request to get all batches with {string}")
-public void user_send_api_request_to_get_all_batches_with(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="12" started-at="2023-01-16T08:23:07 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:07 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:49 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:49 CST" duration-ms="225" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -320,71 +162,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User send api request to get all batches with "/batches/batchName/"' is undefined.
-You can implement this step using the snippet(s) below:
-
-@When("User send api request to get all batches with {string}")
-public void user_send_api_request_to_get_all_batches_with(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User send api request to get all batches with "/batches/batchName/"' is undefined.
-You can implement this step using the snippet(s) below:
-
-@When("User send api request to get all batches with {string}")
-public void user_send_api_request_to_get_all_batches_with(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="10" started-at="2023-01-16T08:23:07 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:07 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:49 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:49 CST" duration-ms="229" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -397,135 +178,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User send api request to get all batches with "/batches/batchId/"' is undefined.
-You can implement this step using the snippet(s) below:
-
-@When("User send api request to get all batches with {string}")
-public void user_send_api_request_to_get_all_batches_with(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User send api request to get all batches with "/batches/batchId/"' is undefined.
-You can implement this step using the snippet(s) below:
-
-@When("User send api request to get all batches with {string}")
-public void user_send_api_request_to_get_all_batches_with(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="486" started-at="2023-01-16T08:23:07 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:08 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Post Req"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Post program]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="217" started-at="2023-01-16T08:23:08 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:08 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Post Req with invalid url"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Post program]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="212" started-at="2023-01-16T08:23:08 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:08 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Post Req with invalid body"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Post program]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="224" started-at="2023-01-16T08:23:08 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:09 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Post Req without sending header"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Post program]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="219" started-at="2023-01-16T08:23:09 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:09 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:49 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:50 CST" duration-ms="548" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -538,26 +194,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [201] but found [400]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [201] but found [400]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:1294)
-at com.stepDefinitions.CommonStepDef.user_validate_the_response_status_code_is(CommonStepDef.java:38)
-at ✽.user validate the response status code is 201(file:///C:/Users/xunee/git/LMS_API_Final/src/test/resources/features/004PostBatches.feature:6)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="222" started-at="2023-01-16T08:23:09 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:09 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:50 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:50 CST" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Post Req"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Post Batch]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:50 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:50 CST" duration-ms="231" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -573,7 +229,7 @@ at ✽.user validate the response status code is 201(file:///C:/Users/xunee/git/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="223" started-at="2023-01-16T08:23:09 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:09 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:50 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:51 CST" duration-ms="223" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -589,7 +245,7 @@ at ✽.user validate the response status code is 201(file:///C:/Users/xunee/git/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="244" started-at="2023-01-16T08:23:09 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:09 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:51 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:51 CST" duration-ms="239" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -605,43 +261,11 @@ at ✽.user validate the response status code is 201(file:///C:/Users/xunee/git/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="212" started-at="2023-01-16T08:23:09 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:10 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:51 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:51 CST" duration-ms="235" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Update Batch with Batch Id"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Put Batch]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [200] but found [405]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [200] but found [405]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:1294)
-at com.stepDefinitions.CommonStepDef.user_validate_the_response_status_code_is(CommonStepDef.java:38)
-at ✽.user validate the response status code is 200(file:///C:/Users/xunee/git/LMS_API_Final/src/test/resources/features/006PutBatches.feature:6)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="215" started-at="2023-01-16T08:23:10 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:10 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Update Program with invalid Batch ID"]]>
+                <![CDATA["Update batch with invalid Batch ID"]]>
               </value>
             </param>
             <param index="1">
@@ -653,119 +277,7 @@ at ✽.user validate the response status code is 200(file:///C:/Users/xunee/git/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="201" started-at="2023-01-16T08:23:10 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:10 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Update Program with invalid Batch ID"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Put Batch]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [400] but found [405]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [400] but found [405]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:1294)
-at com.stepDefinitions.CommonStepDef.user_validate_the_response_status_code_is(CommonStepDef.java:38)
-at ✽.user validate the response status code is 400(file:///C:/Users/xunee/git/LMS_API_Final/src/test/resources/features/006PutBatches.feature:17)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="212" started-at="2023-01-16T08:23:10 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:10 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Delete Program by Program ID"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Delete Program]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [200] but found [400]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [200] but found [400]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:1294)
-at com.stepDefinitions.CommonStepDef.user_validate_the_response_status_code_is(CommonStepDef.java:38)
-at ✽.user validate the response status code is 200(file:///C:/Users/xunee/git/LMS_API_Final/src/test/resources/features/007DeletePrograms.feature:7)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="214" started-at="2023-01-16T08:23:10 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:11 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Delete Program by Program Name"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Delete Program]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="202" started-at="2023-01-16T08:23:11 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:11 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Delete batch by batch Id"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Delete Batch]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [200] but found [400]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [200] but found [400]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:1294)
-at com.stepDefinitions.CommonStepDef.user_validate_the_response_status_code_is(CommonStepDef.java:38)
-at ✽.user validate the response status code is 200(file:///C:/Users/xunee/git/LMS_API_Final/src/test/resources/features/008DeleteBatches.feature:7)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="207" started-at="2023-01-16T08:23:11 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:11 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:51 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:51 CST" duration-ms="230" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -781,7 +293,7 @@ at ✽.user validate the response status code is 200(file:///C:/Users/xunee/git/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@1990a65e]" name="runScenario" duration-ms="214" started-at="2023-01-16T08:23:11 CST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T08:23:11 CST">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:51 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T15:51:52 CST" duration-ms="213" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -794,26 +306,10 @@ at ✽.user validate the response status code is 200(file:///C:/Users/xunee/git/
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [200] but found [405]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [200] but found [405]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:1294)
-at com.stepDefinitions.CommonStepDef.user_validate_the_response_status_code_is(CommonStepDef.java:38)
-at ✽.user validate the response status code is 200(file:///C:/Users/xunee/git/LMS_API_Final/src/test/resources/features/008DeleteBatches.feature:28)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.TestRunner@1990a65e]" name="tearDownClass" is-config="true" duration-ms="1681" started-at="2023-01-16T08:23:11 CST" finished-at="2023-01-16T08:23:13 CST">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.TestRunner@32502377]" started-at="2023-01-16T15:51:52 CST" name="tearDownClass" finished-at="2023-01-16T15:51:53 CST" duration-ms="1819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

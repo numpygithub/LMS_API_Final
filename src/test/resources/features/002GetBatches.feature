@@ -1,5 +1,5 @@
 Feature: Get Batch
-@s_001
+@s_002
 Scenario Outline: Get all batches
 Given user is on GET method
 When user send api request to get all batches with "<url>"
@@ -8,7 +8,7 @@ Then user validate the response status code is <statusCode>
 Examples:
 |url| statusCode|
 |/batches| 200|
-@s_001
+@s_002
 Scenario Outline: Get batch by batchId
 Given user is on GET method 
 When user send api request to get all batches with "<url>"
@@ -18,9 +18,9 @@ Then user validate response body batch name is "<batchName>"
 
 Examples:
 |url| statusCode| status|batchName|
-|/batches/batchId/108| 200|Active|NinjaMavericks|
+|/batches/batchId/2975| 200|Active|123|
 
-@s_001
+@s_002
 Scenario Outline: Get batch by batchName
 Given user is on GET method 
 When user send api request to get all batches with "<url>"
@@ -31,7 +31,7 @@ Examples:
 |url| statusCode|contentType|
 |/batches/batchName/NinjaMavericks| 200|application/json|
 
-@s_001
+@s_002
 Scenario Outline: Get batch by programId
 Given user is on GET method 
 When user send api request to get all batches with "<url>"
@@ -42,7 +42,7 @@ Examples:
 |url| statusCode|contentType|
 |batches/program/1668| 200|application/json|
 
-@s_001
+@s_002
 Scenario Outline: Get batch by invalid programId
 Given user is on GET method 
 When user send api request to get all batches with "<url>"
@@ -54,7 +54,7 @@ Examples:
 |url| statusCode| errorCode|contentType|
 |batches/program/3| 400| ENTITY_DOES_NOT_EXIST|application/json|
 
-@s_001
+@s_002
 Scenario Outline: Get all batches by giving invalid URL
 Given user is on GET method
 When user send api request to get all batches with "<url>"
@@ -65,7 +65,7 @@ Examples:
 |url| statusCode|error|
 | /| 404|Not Found|
 
-@s_001
+@s_002
 Scenario Outline: Get batch by invalid batchId
 Given user is on GET method 
 When user send api request to get all batches with "<url>"
@@ -77,7 +77,7 @@ Examples:
 |url| statusCode| message|
 |/batches/batchId/2| 400|Batch not found with Id : 2 |
 
-@s_001
+@s_002
 Scenario Outline: Get batch by invalid batchName
 Given user is on GET method 
 When user send api request to get all batches with "<url>"
@@ -89,7 +89,7 @@ Examples:
 |url| statusCode|contentType|errorCode|
 |/batches/batchName/NinjaMaverick| 400|application/json|ENTITY_DOES_NOT_EXIST|
 
-@s_001
+@s_002
 Scenario Outline: Get batch by not giving any batchName
 Given user is on GET method 
 When user send api request to get all batches with "<url>"
@@ -101,7 +101,7 @@ Examples:
 |url| statusCode|contentType|errormsg|
 |/batches/batchName/|405|application/json|Method Not Allowed|
 
-@s_001
+@s_002
 Scenario Outline: Get batch by not giving any batchId
 Given user is on GET method 
 When user send api request to get all batches with "<url>"

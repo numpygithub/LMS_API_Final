@@ -19,7 +19,7 @@ public class PostBatchesStepDef {
 	@When("user send api request with {string}")
 	public void user_send_api_request_with(String url) {
 		 JSONObject payload = new JSONObject();
-	        payload.put("batchName", "Jan23-API Queen Bees-SDET-SDET11-001");
+	        payload.put("batchName", "Jan23-API Queen Bees-ApiLearning-SDET11-110");
 	        payload.put("batchDescription", "Selenium");
 	        payload.put("batchStatus", "Active");
 	        payload.put("batchNoOfClasses", "12");
@@ -27,7 +27,21 @@ public class PostBatchesStepDef {
 	        base.requestSpecification.body(payload);
 	        base.requestSpecification.header("Content-Type","application/json");
 		 base.response = base.requestSpecification.request(Method.POST,url);
-		
+		System.out.println("response batch 1 :"+base.response.asString());
+		}
+	
+	@When("user send api request with {string} to create another batch")
+	public void user_send_api_request_with_to_create_another_batch(String url) {
+		 JSONObject payload = new JSONObject();
+	        payload.put("batchName", "Jan23-API Queen Bees-ApiLearning-SDET11-100");
+	        payload.put("batchDescription", "Selenium");
+	        payload.put("batchStatus", "Active");
+	        payload.put("batchNoOfClasses", "12");
+	        payload.put("programId", "1668");
+	        base.requestSpecification.body(payload);
+	        base.requestSpecification.header("Content-Type","application/json");
+		 base.response = base.requestSpecification.request(Method.POST,url);
+		 System.out.println("response batch 2 :"+base.response.asString());
 		}
 	
 	
