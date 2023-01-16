@@ -16,7 +16,7 @@ public class PostBatchesStepDef {
 		this.base = base;
 		}
 	
-	@When("User send api request with {string}")
+	@When("user send api request with {string}")
 	public void user_send_api_request_with(String url) {
 		 JSONObject payload = new JSONObject();
 	        payload.put("batchName", "Jan23-API Queen Bees-SDET-SDET11-001");
@@ -31,7 +31,7 @@ public class PostBatchesStepDef {
 		}
 	
 	
-	@When("User send api request with {string} without header")
+	@When("user send api request with {string} without header")
 	public void user_send_api_request_with_without_header(String url) {
 		JSONObject payload = new JSONObject();
         payload.put("batchName", "Jan23-API Queen Bees-SDET-SDET11-001");
@@ -61,6 +61,5 @@ public void user_validate_response_body_message_is(String errorMessage) {
 	String actualMessage = base.response.then().extract().path("errorMessage");
 	Assert.assertEquals(actualMessage, " "+errorMessage+" ");
 }
-	
 
 }
