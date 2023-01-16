@@ -1,20 +1,18 @@
-Feature: Post program
+Feature: Post Batch 
 @s_001
 Scenario Outline: Post Req
 Given user is on POST method
-When User send api request with "<url>"
+When user send api request with "<url>"
 Then user validate the response status code is <statusCode> 
 And user validate header content-Type as "<contentType>"
-
-
 Examples:
 |url| statusCode|contentType|
-|/batches| 400|application/json|
+|/batches| 201|application/json|
 
 @s_001
 Scenario Outline: Post Req without sending header
 Given user is on POST method
-When User send api request with "<url>" without header
+When user send api request with "<url>" without header
 Then user validate the response status code is <statusCode> 
 And user validate header content-Type as "<contentType>"
 Then user validate the response body as error "<error>"
@@ -26,7 +24,7 @@ Examples:
 @s_001
 Scenario Outline: Post Req with invalid url
  Given user is on POST method
-When User send api request with "<url>"
+When user send api request with "<url>"
 Then user validate the response status code is <statusCode> 
 And user validate header content-Type as "<contentType>"
 Then user validate the response body as error "<error>"
@@ -46,8 +44,6 @@ Then user validate response body message is "<message>"
 Examples:
 |url| statusCode|contentType|errorCode|message|
 |/batches| 400|application/json|VALIDATION_FAILED| ProgramId field is needed; It should be a positive number |
-
-
 
 
 

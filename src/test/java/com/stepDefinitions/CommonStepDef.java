@@ -16,10 +16,22 @@ public class CommonStepDef {
 	}
 	@Given("user is on GET method")
 	public void user_is_on_get_method() {
-		}
+		
+	  }
+	
 	@Given("user is on POST method")
 	public void user_is_on_post_method() {
-	   }
+		
+	  }
+	@Given("user is on PUT method")
+	public void user_is_on_put_method() {
+    
+	}
+	@Given("user is on DEL method")
+	public void user_is_on_del_method() {
+		
+	}
+	
 	@Then("user validate the response status code is {int}")
 	public void user_validate_the_response_status_code_is(Integer statusCode) {
 		int actualResponseCode = base.response.then().extract().statusCode();
@@ -43,21 +55,32 @@ public class CommonStepDef {
 	}
 	
 	@Then("user validate the response body {string}")
-	public void user_validate_the_response_body(String errorCode) {
+	public void user_validate_the_response_body(String error) {
 		String actualError = base.response.then().extract().path("errorCode");
-		Assert.assertEquals(actualError, errorCode);
+		Assert.assertEquals(actualError, error);
 	
 	}
 	
+	@Then("user validate response body error message is {string}")
+	public void user_validate_response_body_error_message_is(String errorMessage) {
+		
+		String actualMessage = base.response.then().extract().path("errorMessage");
+		Assert.assertEquals(actualMessage, errorMessage+" ");
+	    
+	}
 	@Then("user validate the response body error  {string}")
 	public void user_validate_the_response_body_error(String error) {
 		String actualMessage = base.response.then().extract().path("error");
 		Assert.assertEquals(actualMessage, error);
 	}
-	@Then("user validate response body errorMessage is {string}")
-	public void user_validate_response_body_error_message_is(String errorMessage) {
-		String actualMessage = base.response.then().extract().path("errorMessage");
-		Assert.assertEquals(actualMessage, errorMessage);
+
+	@Then("user validate the response body as error {string}")
+	public void user_validate_the_response_body_as_error(String error) {
+		String errorMsg = base.response.then().extract().path("error");
+		Assert.assertEquals(errorMsg, error);
 	}
+	
+	
+
 
 }

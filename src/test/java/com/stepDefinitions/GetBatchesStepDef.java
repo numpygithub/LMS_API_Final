@@ -17,7 +17,7 @@ public class GetBatchesStepDef {
 		
 	}
 	
-	@When("User send api request to get all batches with {string}")
+	@When("user send api request to get all batches with {string}")
 	public void user_send_api_request_to_get_all_batches_with(String url) {
 		
 		Loggerload.info("In user_send_api_request_to_get_all_batches_with");
@@ -31,13 +31,6 @@ public class GetBatchesStepDef {
 		Assert.assertEquals(actualName, name);
 		Loggerload.info("Actual response status is  :" + actualName);
 	}
-	
-	@Then("user validate response body error message is {string}")
-	public void user_validate_response_body_error_message_is(String errorMessage) {
-		
-		String actualMessage = base.response.then().extract().path("errorMessage");
-		Assert.assertEquals(actualMessage, errorMessage+" ");
-	    
-	}
+
 
 }
