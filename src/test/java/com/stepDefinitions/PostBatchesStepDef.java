@@ -19,7 +19,7 @@ public class PostBatchesStepDef {
 	@When("user send api request with {string}")
 	public void user_send_api_request_with(String url) {
 		 JSONObject payload = new JSONObject();
-	        payload.put("batchName", "Jan23-API Queen Bees-ApiLearning-SDET11-101");
+	        payload.put("batchName", "Jan23-API Queen Bees-ApiLearning-SDET11-011");
 	        payload.put("batchDescription", "Selenium");
 	        payload.put("batchStatus", "Active");
 	        payload.put("batchNoOfClasses", "12");
@@ -33,7 +33,7 @@ public class PostBatchesStepDef {
 	@When("user send api request with {string} to create another batch")
 	public void user_send_api_request_with_to_create_another_batch(String url) {
 		 JSONObject payload = new JSONObject();
-	        payload.put("batchName", "Jan23-API Queen Bees-ApiLearning-SDET11-102");
+	        payload.put("batchName", "Jan23-API Queen Bees-ApiLearning-SDET11-012");
 	        payload.put("batchDescription", "Selenium");
 	        payload.put("batchStatus", "Active");
 	        payload.put("batchNoOfClasses", "12");
