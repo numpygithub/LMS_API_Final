@@ -18,7 +18,7 @@ Then user validate response body batch name is "<batchName>"
 
 Examples:
 |url| statusCode| status|batchName|
-|/batches/batchId/1255| 200|Active|123|
+|/batches/batchId/1255| 200|ACTIVE|Jan23-API Testers|
 
 @s_002
 Scenario Outline: Get batch by batchName
