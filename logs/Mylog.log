@@ -1331,3 +1331,328 @@
 [INFO ] 2023-01-16 15:51:51.838 [main] Loggerload - Actual response code is  :400
 [INFO ] 2023-01-16 15:51:51.857 [main] Loggerload - In user_send_api_request_to_del_batch
 [INFO ] 2023-01-16 15:51:52.060 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-17 09:49:58.626 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:50:00.794 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 09:50:00.960 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:50:01.196 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 09:50:02.378 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:50:02.633 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 09:50:02.679 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:50:02.925 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 09:50:02.971 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:50:03.203 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:50:03.266 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:50:03.509 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 09:50:03.562 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:50:03.788 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:50:03.862 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:50:04.113 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:50:04.196 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:50:04.416 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-17 09:50:04.461 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:50:04.693 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-17 09:50:06.285 [main] Loggerload - Actual response code is  :415
+[INFO ] 2023-01-17 09:50:06.617 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 09:50:06.905 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:50:07.251 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:50:07.322 [main] Loggerload - In user_send_api_request_to_del_batch
+[INFO ] 2023-01-17 09:50:07.547 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:50:07.600 [main] Loggerload - In user_send_api_request_to_del_batch
+[INFO ] 2023-01-17 09:50:07.817 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-17 09:52:52.013 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:52:53.663 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 09:52:53.799 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:52:54.036 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 09:52:54.857 [main] Loggerload - ---------->Actual response status is  :ACTIVE
+[INFO ] 2023-01-17 09:52:54.935 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:52:55.169 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 09:52:55.241 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:52:55.497 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 09:52:55.570 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:52:55.818 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:52:55.919 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:52:56.162 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 09:52:56.236 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:52:56.454 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:52:56.496 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:52:56.716 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:52:56.767 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:52:56.984 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-17 09:52:57.019 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:52:57.225 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-17 09:52:58.482 [main] Loggerload - Actual response code is  :415
+[INFO ] 2023-01-17 09:52:58.728 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 09:52:59.032 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:52:59.410 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:52:59.483 [main] Loggerload - In user_send_api_request_to_del_batch
+[INFO ] 2023-01-17 09:52:59.691 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:52:59.718 [main] Loggerload - In user_send_api_request_to_del_batch
+[INFO ] 2023-01-17 09:52:59.929 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-17 09:55:28.437 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:55:30.154 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 09:55:30.275 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:55:30.535 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 09:55:31.561 [main] Loggerload - ---------->Actual response status is  :ACTIVE
+[INFO ] 2023-01-17 09:55:31.583 [main] Loggerload - Actual response status is  :Jan23-API Testers
+[INFO ] 2023-01-17 09:55:31.633 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:55:31.863 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 09:55:31.932 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:55:32.178 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 09:55:32.240 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:55:32.482 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:55:32.528 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:55:32.757 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 09:55:32.798 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:55:33.010 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:55:33.049 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:55:33.271 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:55:33.307 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:55:33.517 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-17 09:55:33.616 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 09:55:33.829 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-17 09:55:34.565 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-17 09:55:34.806 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-17 09:55:35.046 [main] Loggerload - Actual response code is  :415
+[INFO ] 2023-01-17 09:55:35.310 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 09:55:35.612 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:55:35.907 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:55:35.954 [main] Loggerload - In user_send_api_request_to_del_batch
+[INFO ] 2023-01-17 09:55:36.177 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 09:55:36.214 [main] Loggerload - In user_send_api_request_to_del_batch
+[INFO ] 2023-01-17 09:55:36.440 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-17 10:20:14.806 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:20:15.469 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:20:16.809 [main] Loggerload - ---------->Actual program name is  :Jan23-API Queen Bees-Java-011
+[INFO ] 2023-01-17 10:20:17.108 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 10:20:17.684 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 10:20:18.035 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 10:20:18.158 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:20:19.035 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:20:19.091 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:20:19.326 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:20:19.358 [main] Loggerload - ---------->Actual response status is  :ACTIVE
+[INFO ] 2023-01-17 10:20:19.386 [main] Loggerload - Actual response status is  :Jan23-API Testers
+[INFO ] 2023-01-17 10:20:19.433 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:20:19.678 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:20:19.719 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:20:19.968 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:20:20.009 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:20:20.281 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 10:20:20.382 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:20:20.629 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 10:20:20.731 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:20:21.000 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 10:20:21.063 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:20:21.335 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 10:20:21.416 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:20:21.657 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-17 10:20:21.714 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:20:21.938 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-17 10:20:23.437 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-17 10:20:23.718 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-17 10:20:23.996 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 10:20:24.347 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 10:20:24.641 [main] Loggerload - Actual response code is  :415
+[INFO ] 2023-01-17 10:20:25.555 [main] Loggerload - Actual response code is  :415
+[INFO ] 2023-01-17 10:20:25.893 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 10:20:26.170 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 10:20:26.554 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:20:26.865 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 10:20:27.137 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 10:20:27.442 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 10:20:27.781 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:20:28.060 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:20:28.085 [main] Loggerload - In user_send_api_request_to_del_batch
+[INFO ] 2023-01-17 10:20:28.311 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 10:20:28.397 [main] Loggerload - In user_send_api_request_to_del_batch
+[INFO ] 2023-01-17 10:20:28.618 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-17 10:21:47.764 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:21:48.191 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:21:49.262 [main] Loggerload - ---------->Actual program name is  :Jan23-API Queen Bees-Java-011
+[INFO ] 2023-01-17 10:21:49.578 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 10:21:50.149 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 10:21:50.506 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 10:21:50.609 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:21:51.121 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:21:51.194 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:21:51.435 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:21:51.455 [main] Loggerload - ---------->Actual response status is  :ACTIVE
+[INFO ] 2023-01-17 10:21:51.475 [main] Loggerload - Actual response status is  :Jan23-API Testers
+[INFO ] 2023-01-17 10:21:51.512 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:21:51.767 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:21:51.821 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:21:52.040 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:21:52.066 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:21:52.317 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 10:21:52.361 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:21:52.582 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 10:21:52.626 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:21:52.839 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 10:21:52.881 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:21:53.116 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 10:21:53.164 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:21:53.385 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-17 10:21:53.430 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-17 10:21:53.660 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-17 10:21:54.665 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-17 10:21:54.933 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-17 10:21:55.186 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 10:21:55.478 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 10:21:55.766 [main] Loggerload - Actual response code is  :415
+[INFO ] 2023-01-17 10:21:56.031 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-17 10:21:56.303 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-17 10:21:56.590 [main] Loggerload - Actual response code is  :415
+[INFO ] 2023-01-17 10:21:56.854 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 10:21:57.151 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 10:21:57.533 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:21:58.062 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 10:21:58.389 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-17 10:21:58.700 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 10:21:59.039 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:21:59.299 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-17 10:21:59.335 [main] Loggerload - In user_send_api_request_to_del_batch
+[INFO ] 2023-01-17 10:21:59.597 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-17 10:21:59.632 [main] Loggerload - In user_send_api_request_to_del_batch
+[INFO ] 2023-01-17 10:21:59.858 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-19 12:26:51.646 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:26:51.990 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:26:52.839 [main] Loggerload - ---------->Actual program name is  :Jan23-API Queen Bees-Java-011
+[INFO ] 2023-01-19 12:26:53.066 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-19 12:26:53.478 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-19 12:26:53.703 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-19 12:26:53.797 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:26:54.219 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:26:54.234 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:26:54.456 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:26:54.456 [main] Loggerload - ---------->Actual response status is  :ACTIVE
+[INFO ] 2023-01-19 12:26:54.471 [main] Loggerload - Actual response status is  :Jan23-API Testers
+[INFO ] 2023-01-19 12:26:54.487 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:26:54.690 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:26:54.706 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:26:54.940 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:26:54.955 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:26:55.165 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-19 12:26:55.188 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:26:55.395 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-19 12:26:55.435 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:26:55.644 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-19 12:26:55.670 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:26:55.877 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-19 12:26:55.902 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:26:56.103 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-19 12:26:56.127 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:26:56.327 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-19 12:26:57.121 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-19 12:26:57.491 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-19 12:26:57.736 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-19 12:26:57.968 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-19 12:26:58.185 [main] Loggerload - Actual response code is  :415
+[INFO ] 2023-01-19 12:26:58.855 [main] Loggerload - Actual response code is  :415
+[INFO ] 2023-01-19 12:26:59.088 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-19 12:26:59.314 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-19 12:26:59.568 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:26:59.944 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-19 12:27:00.169 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-19 12:27:00.393 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-19 12:27:00.635 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:27:00.847 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:27:00.858 [main] Loggerload - In user_send_api_request_to_del_batch
+[INFO ] 2023-01-19 12:27:01.060 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-19 12:27:01.078 [main] Loggerload - In user_send_api_request_to_del_batch
+[INFO ] 2023-01-19 12:27:01.280 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-19 12:39:54.580 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:39:54.977 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:39:55.505 [main] Loggerload - ---------->Actual program name is  :Jan23-API Queen Bees-Java-011
+[INFO ] 2023-01-19 12:39:55.748 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-19 12:39:56.145 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-19 12:39:56.379 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-19 12:39:56.408 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:39:56.833 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:39:56.848 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:39:57.058 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:39:57.068 [main] Loggerload - ---------->Actual response status is  :ACTIVE
+[INFO ] 2023-01-19 12:39:57.078 [main] Loggerload - Actual response status is  :Jan23-API Testers
+[INFO ] 2023-01-19 12:39:57.097 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:39:57.310 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:39:57.326 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:39:57.528 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:39:57.545 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:39:57.750 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-19 12:39:57.773 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:39:57.973 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-19 12:39:57.994 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:39:58.195 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-19 12:39:58.216 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:39:58.418 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-19 12:39:58.442 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:39:58.649 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-19 12:39:58.669 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-19 12:39:58.864 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-19 12:39:59.398 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-19 12:39:59.619 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-19 12:39:59.829 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-19 12:40:00.054 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-19 12:40:00.264 [main] Loggerload - Actual response code is  :415
+[INFO ] 2023-01-19 12:40:00.494 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-19 12:40:00.712 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-19 12:40:00.925 [main] Loggerload - Actual response code is  :415
+[INFO ] 2023-01-19 12:40:01.156 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-19 12:40:01.376 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-19 12:40:01.612 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:40:02.147 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-19 12:40:02.370 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-19 12:40:02.661 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-19 12:40:02.884 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:40:03.095 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-19 12:40:03.104 [main] Loggerload - In user_send_api_request_to_del_batch
+[INFO ] 2023-01-19 12:40:03.306 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-19 12:40:03.323 [main] Loggerload - In user_send_api_request_to_del_batch
+[INFO ] 2023-01-19 12:40:03.530 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-20 07:34:20.766 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-20 07:34:21.333 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-20 07:34:23.713 [main] Loggerload - ---------->Actual program name is  :Jan23-API Queen Bees-Java-011
+[INFO ] 2023-01-20 07:34:24.029 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-20 07:34:25.187 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-20 07:34:25.494 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-20 07:34:25.585 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-20 07:34:26.681 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-20 07:34:26.725 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-20 07:34:26.967 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-20 07:34:26.984 [main] Loggerload - ---------->Actual response status is  :ACTIVE
+[INFO ] 2023-01-20 07:34:27.011 [main] Loggerload - Actual response status is  :Jan23-API Testers
+[INFO ] 2023-01-20 07:34:27.080 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-20 07:34:27.325 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-20 07:34:27.392 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-20 07:34:27.642 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-20 07:34:27.724 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-20 07:34:27.961 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-20 07:34:28.044 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-20 07:34:28.273 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-20 07:34:28.339 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-20 07:34:28.560 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-20 07:34:28.660 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-20 07:34:28.890 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-20 07:34:28.962 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-20 07:34:29.183 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-20 07:34:29.228 [main] Loggerload - In user_send_api_request_to_get_all_batches_with
+[INFO ] 2023-01-20 07:34:29.456 [main] Loggerload - Actual response code is  :405
+[INFO ] 2023-01-20 07:34:31.620 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-20 07:34:31.905 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-20 07:34:32.191 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-20 07:34:32.772 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-20 07:34:33.053 [main] Loggerload - Actual response code is  :415
+[INFO ] 2023-01-20 07:34:33.419 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-20 07:34:33.670 [main] Loggerload - Actual response code is  :201
+[INFO ] 2023-01-20 07:34:33.939 [main] Loggerload - Actual response code is  :415
+[INFO ] 2023-01-20 07:34:34.228 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-20 07:34:34.518 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-20 07:34:34.835 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-20 07:34:35.317 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-20 07:34:35.677 [main] Loggerload - Actual response code is  :404
+[INFO ] 2023-01-20 07:34:36.037 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-20 07:34:36.316 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-20 07:34:36.600 [main] Loggerload - Actual response code is  :200
+[INFO ] 2023-01-20 07:34:36.643 [main] Loggerload - In user_send_api_request_to_del_batch
+[INFO ] 2023-01-20 07:34:36.867 [main] Loggerload - Actual response code is  :400
+[INFO ] 2023-01-20 07:34:36.944 [main] Loggerload - In user_send_api_request_to_del_batch
+[INFO ] 2023-01-20 07:34:37.163 [main] Loggerload - Actual response code is  :405
