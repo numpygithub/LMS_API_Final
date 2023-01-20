@@ -14,8 +14,7 @@ public class GetBatchesStepDef {
 	private Base base;
 	public GetBatchesStepDef(Base base) {
 		this.base = base;
-		
-	}
+		}
 	
 	@When("user send api request to get all batches with {string}")
 	public void user_send_api_request_to_get_all_batches_with(String url) {
